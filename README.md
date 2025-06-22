@@ -110,25 +110,3 @@ docker pull <your-dockerhub-username>/flasktest-app:latest
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License. Feel free to use and modify it as needed.
-
----
-
-## ✍️ Author
-
-\[Your Name]
-[Your GitHub Profile](https://github.com/your-username)
-
-```
-
----
-
-Let me know if you want to:
-- Deploy this to a cloud service (e.g., AWS, Azure, or Render)
-- Add automatic deployment after pushing to DockerHub
-- Use environment variables or add a database
-
-I can help you scale this up!
-```
