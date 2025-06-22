@@ -6,6 +6,13 @@
 This is a simple **Flask** web application that returns "Hello World!" when accessed at the root URL (`/`). The project uses **Docker** for containerization and **GitHub Actions** for CI/CD.
 
 ---
+## Github Actions CiCd pipeline
+![Github Actions CiCd pipeline](images/dimg_1.png)
+---
+## Dockerhub
+![Dockerhub](images/dimg_2.png)
+---
+
 
 ## 🧱 Project Structure
 
@@ -26,8 +33,8 @@ This is a simple **Flask** web application that returns "Hello World!" when acce
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/flask-docker-cicd.git
-cd flask-docker-cicd
+git clone https://github.com/jowin-henry/dockerimagehub.git
+cd dockerimagehub
 ````
 
 ### 2. Create a Virtual Environment (optional)
@@ -89,7 +96,7 @@ Triggered on:
 
 #### Pipeline Stages:
 
-1. **Build Docker image** (non-published test)
+1. **Build Docker image** 
 2. **Run Python tests** using `pytest`
 3. **Build & Publish Docker image to Docker Hub**
 
