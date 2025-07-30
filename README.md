@@ -3,7 +3,7 @@
 
 # Flask Docker CI/CD App
 
-This is a simple **Flask** web application that returns "Hello World!" when accessed at the root URL (`/`). The project uses **Docker** for containerization and **GitHub Actions** for CI/CD.
+The project uses **Docker** for containerization and **GitHub Actions** for CI/CD.
 
 ---
 ## Github Actions CiCd pipeline
